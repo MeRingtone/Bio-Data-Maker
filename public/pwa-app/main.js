@@ -3,8 +3,8 @@
 // Register the service worker
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('https://cv.coderobo.org/sw.js', {
-        scope: 'https://cv.coderobo.org/' // Explicit scope
+    navigator.serviceWorker.register('https://bio.coderobo.org/sw.js', {
+        scope: 'https://bio.coderobo.org/' // Explicit scope
     }).then((registration) => {
         console.log('Service Worker registered with scope:', registration.scope);
     }).catch((err) => {
