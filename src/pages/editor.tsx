@@ -9,7 +9,7 @@ const Editor: NextPage = () => {
   return (
     <FlexHC>
       <Head>
-        <title>Bio Data Maker Editor Page</title>
+        <title>CV Maker App Editor Page</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/draggar.css"></link>
         {/* Google Analytics Script */}
@@ -29,7 +29,7 @@ const Editor: NextPage = () => {
       </Head>
       <div id="navbar1">
           <span>
-            <b>Bio Data Maker</b>
+            <b>CV Maker Pro</b>
           </span>
         </div>
         <br />

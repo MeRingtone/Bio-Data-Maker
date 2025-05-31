@@ -49,38 +49,21 @@ const HeroHolder = styled.div`
 `;
 
 const CTA = styled.span`
-  padding: 0.8rem 1rem;
+  padding: 1.0rem 2rem;
   background: #6c63ff;
   color: white;
   border-radius: 4px;
   text-align: center;
-  font-size: 2.0rem;
-  box-shadow: 0 6px 0 #5a52d5;
-  transform: translateY(0);
-  transition: all 0.2s ease;
-  cursor: pointer;
-  display: inline-block;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 0 #5a52d5;
-  }
-
-  &:active {
-    transform: translateY(4px);
-    box-shadow: 0 2px 0 #5a52d5;
-  }
+  font-size: 2.2rem;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;
     padding: 0.8rem 1.5rem;
-    box-shadow: 0 4px 0 #5a52d5;
   }
 
   @media (max-width: 480px) {
     font-size: 1.2rem;
     padding: 0.6rem 1.2rem;
-    box-shadow: 0 3px 0 #5a52d5;
   }
 `;
 
@@ -90,13 +73,13 @@ const Hero: NextPage = () => {
       <div>
         <h3>Create and Download in PDF Format</h3>
         <h1>
-          Bio Data Maker <br />
-          Free Job Bio Data Maker
+          CV Maker Pro <br />
+          Free Resume Builder
         </h1>
         <div className="cta-holder">
           <Link href="/editor">
             <a>
-              <CTA>Start Making Your Biodata</CTA>
+              <CTA>Start Making Your CV</CTA>
             </a>
           </Link>
         </div>

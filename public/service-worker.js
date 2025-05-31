@@ -1,6 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-const CACHE = "bio-data-maker-cache-v1";
+const CACHE = "resume-builder-cache-v1";
 const offlineFallbackPage = "/offline.html";
 
 self.addEventListener("message", (event) => {

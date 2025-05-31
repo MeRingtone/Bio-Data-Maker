@@ -35,7 +35,7 @@ export function PrintSettings() {
     });
 
     globalThis?.addEventListener('afterprint', () => {
-      globalThis.document.title = 'Bio Data Maker';
+      globalThis.document.title = 'Free CV Maker';
     });
   }, [intro]);
 

@@ -1,22 +1,22 @@
 {
-  "name": "Bio Data Maker",
-  "short_name": "Bio Data Maker",
-  "start_url": "https://bio.coderobo.org/",
+  "name": "CV Maker Pro",
+  "short_name": "CV Maker Pro",
+  "start_url": "https://cv.coderobo.org/",
   "display": "standalone",
   "background_color": "#edfffb",
   "lang": "en",
-  "scope": "https://bio.coderobo.org/",
-  "id": "https://bio.coderobo.org/",
-  "description": "Bio Data Maker",
+  "scope": "https://cv.coderobo.org/",
+  "id": "https://cv.coderobo.org/",
+  "description": "Build your CV easily!",
   "screenshots": [
     {
-      "src": "https://bio.coderobo.org/pwa-app/screenshots/desktop1.png",
+      "src": "https://cv.coderobo.org/pwa-app/screenshots/desktop1.png",
       "sizes": "1920x1080",
       "type": "image/jpg",
       "form_factor": "wide"
     },
     {
-      "src": "https://bio.coderobo.org/pwa-app/screenshots/mobile1.png",
+      "src": "https://cv.coderobo.org/pwa-app/screenshots/mobile1.png",
       "sizes": "1080x1920",
       "type": "image/jpg",
       "form_factor": "narrow"
@@ -42,25 +42,25 @@
   },
   "icons": [
     {
-      "src": "https://bio.coderobo.org/pwa-app/512.png",
+      "src": "https://cv.coderobo.org/pwa-app/512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "https://bio.coderobo.org/pwa-app/256.png",
+      "src": "https://cv.coderobo.org/pwa-app/256.png",
       "type": "image/png",
       "sizes": "256x256",
       "purpose": "any"
     },
     {
-      "src": "https://bio.coderobo.org/pwa-app/192.png",
+      "src": "https://cv.coderobo.org/pwa-app/192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "https://bio.coderobo.org/pwa-app/app-maskable.png",
+      "src": "https://cv.coderobo.org/pwa-app/app-maskable.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
@@ -73,7 +73,7 @@
   ],
   "file_handlers": [
     {
-      "action": "https://bio.coderobo.org/",
+      "action": "https://cv.coderobo.org/",
       "accept": {
         "image/*": [
           ".jpg",
@@ -85,7 +85,7 @@
     }
   ],
   "share_target": {
-    "action": "https://bio.coderobo.org/share-target/",
+    "action": "https://cv.coderobo.org/share-target/",
     "method": "POST",
     "enctype": "multipart/form-data",
     "params": {
@@ -105,30 +105,30 @@
   "related_applications": [
     {
       "platform": "windows",
-      "url": "https://bio.coderobo.org/pwa-app/manifest.webmanifest",
+      "url": "https://cv.coderobo.org/pwa-app/manifest.webmanifest",
       "display_name": "Code Robo Apps"
     }
   ],
   "prefer_related_applications": true,
   "mswindows_store_tags": [
-    "Bio Data Maker",
-    "Bio Data Format",
-    "Bio Data PDF",
-    "Bio Data For Job",
-    "Job Bio Data Format",
-    "Job Bio Data Maker",
-    "Bio Data Maker For Job"
+    "CV Maker",
+    "CV Builder",
+    "Free CV Builder",
+    "CV Resume Builder",
+    "Free CV Maker",
+    "Resume CV Maker",
+    "CV Template"
   ],
   "shortcuts": [
       {
-        "name": "Make Your Bio Data",
+        "name": "Make Your CV",
         "url": "/",
-        "description": "Start Making Your Bio Data"
+        "description": "Start Making Your Resume"
       },
       {
-        "name": "Make Your Job Bio Data",
+        "name": "Make Your Resume",
         "url": "/",
-        "description": "Start Making Your Job Bio Data"
+        "description": "Start Making Your CV"
       }
     ]
 }
