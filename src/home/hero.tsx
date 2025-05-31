@@ -73,8 +73,8 @@ const Hero: NextPage = () => {
       <div>
         <h3>Create and Download in PDF Format</h3>
         <h1>
-          Free Job Bio Data Maker <br />
-          Click the '<b>Start Making Your Bio</b>' button below to create your bio data for a job
+          Free Job Bio Data Maker.<br />
+          Click the "<b>Start Making Your Bio</b>" button below to create your bio data for a job
         </h1>
         <div className="cta-holder">
           <Link href="/editor">
