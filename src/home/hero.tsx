@@ -75,7 +75,8 @@ const Hero: NextPage = () => {
         <h1>
           Bio Data Maker <br />
           Free Job Bio Data Maker
-        </h1>
+        </h1><br/>
+        <p>Click the '<b>Start Making Your Bio</b>' button below to create your bio data for a job</p>
         <div className="cta-holder">
           <Link href="/editor">
             <a>
