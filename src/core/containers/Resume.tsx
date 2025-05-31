@@ -90,7 +90,7 @@ export function Resume() {
       <PageWrapper>
         {/* Google Ads Section */}
         <AdContainer id="ads">
-          <p style={{ fontSize: 'medium' }}><b>Internet required for full functionality</b></p>
+          <p style={{ fontSize: 'medium' }}><b>Internet is required for full features. Use the app in full screen for better visibility</b></p>
           <p style={{ fontSize: 'medium' }}><b>Advertisement</b></p>
           <ins
             className="adsbygoogle"
