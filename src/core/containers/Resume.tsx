@@ -96,7 +96,7 @@ export function Resume() {
             className="adsbygoogle"
             style={{ display: "block" }}
             data-ad-client="ca-pub-2305974348753248"
-            data-ad-slot="1051403388"
+            data-ad-slot="6949799538"
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>

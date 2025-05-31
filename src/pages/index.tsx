@@ -53,8 +53,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>CV Maker Pro</title>
-        <meta name="description" content="Free CV Maker" />
+        <title>Bio Data maker</title>
+        <meta name="description" content="Free Bio Data Maker" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/draggar.css"></link>
         {/* Google Analytics Script */}
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
 
       <div id="navbar1">
         <span>
-          <b>CV Maker Pro</b>
+          <b>Bio Data Maker</b>
         </span>
       </div>
 

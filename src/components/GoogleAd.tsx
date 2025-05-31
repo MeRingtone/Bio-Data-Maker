@@ -78,7 +78,7 @@ const GoogleAd = ({ isVertical = false }: GoogleAdProps) => {
           height: isVertical ? "600px" : "auto"
         }}
         data-ad-client="ca-pub-2305974348753248"
-        data-ad-slot={isVertical ? "1051403389" : "1051403388"}
+        data-ad-slot={isVertical ? "1051403389" : "6949799538"}
         data-ad-format={isVertical ? "vertical" : "auto"}
         data-full-width-responsive={!isVertical}
       ></ins>

@@ -73,13 +73,13 @@ const Hero: NextPage = () => {
       <div>
         <h3>Create and Download in PDF Format</h3>
         <h1>
-          CV Maker Pro <br />
-          Free Resume Builder
+          Bio Data Maker <br />
+          Free Job Bio Data Maker
         </h1>
         <div className="cta-holder">
           <Link href="/editor">
             <a>
-              <CTA>Start Making Your CV</CTA>
+              <CTA>Start Making Your Bio</CTA>
             </a>
           </Link>
         </div>
